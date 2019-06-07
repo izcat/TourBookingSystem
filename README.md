@@ -6,7 +6,7 @@
 基于MySQL，设计并实现一个简单的旅行预订系统。该系统涉及的信息有航班、大巴班车、宾馆房间和客户数据等信息。 
 其关系模式如下：  
 ```
-FLIGHTS (String flightNum, int price, int numSeats, int numAvail, String FromCity, String ArivCity)  
+FLIGHTS(String flightNum, int price, int numSeats, int numAvail, String FromCity, String ArivCity)  
 HOTELS(String hotelNum, String location, int price, int numRooms, int numAvail)  
 BUS(String BusNum, String location, int price, int numBus, int numAvail)
 CUSTOMERS(int custID, String custName)
@@ -33,3 +33,8 @@ RESERVATIONS(String resvNum, String custID, int resvType, String resvKey)
 
 ## 上机报告
 根据大作业的要求，建立数据库，插入一些数据，完成航班查询、预定、取消功能，注意体现数据库一致性的原则。
+
+## 结果展示
+[image](实验报告/imgs/0.png)
+[image](实验报告/imgs/1.png)  
+[image](实验报告/imgs/2.png)

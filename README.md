@@ -35,6 +35,11 @@ RESERVATIONS(String resvNum, String custID, int resvType, String resvKey)
 根据大作业的要求，建立数据库，插入一些数据，完成航班查询、预定、取消功能，注意体现数据库一致性的原则。
 
 ## 结果展示
-[image](实验报告/imgs/0.png)
-[image](实验报告/imgs/1.png)  
-[image](实验报告/imgs/2.png)
+管理员模式  
+![image](实验报告/imgs/0.png)  
+  
+用户模式  
+![image](实验报告/imgs/1.png)  
+  
+基本功能  
+![image](实验报告/imgs/2.png)
